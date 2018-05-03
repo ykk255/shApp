@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 
-import { Router } from '@angular/route';
 
 
 @Component({
@@ -9,11 +8,13 @@ import { Router } from '@angular/route';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'app';
+  title = 'appGitFlowStudy';
 
   constructor() {
     
   }
 
-  ddddd
+  ngOnInit() {
+    
+  }
 }
