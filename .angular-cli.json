@@ -9,7 +9,7 @@
       "outDir": "dist",
       "assets": [
         "assets",
-        "favicon.ico"
+        "favicon.ico"        
       ],
       "index": "index.html",
       "main": "main.ts",
@@ -21,7 +21,11 @@
       "styles": [
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": ["../node_modules/jquery/dist/jquery.min.js", 
+        "../node_modules/bootstrap/dist/js/bootstrap.min.js",         
+        "../node_modules/progressbar.js/dist/progressbar.min.js",
+        "../node_modules/material-components-web/dist/material-components-web.min.js",
+        "../node_modules/chart.js/dist/Chart.min.js"],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
