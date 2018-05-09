@@ -1,20 +1,122 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+  <!-- plugins:css -->
+  <!--
+    //????? ??
+  <link rel="stylesheet" href="/node_modules/mdi/css/materialdesignicons.min.css" type="text/css">
 
+  -->
+  <!-- plugin css for this page -->
+  <!-- End plugin css for this page -->
+  <!-- inject:css -->
+  <!-- endinject -->
+
+
+    <div class="body-wrapper">
+        <!-- partial:partials/_sidebar.html -->
+        <aside class="mdc-persistent-drawer mdc-persistent-drawer--open">
+          <nav class="mdc-persistent-drawer__drawer">
+            <div class="mdc-persistent-drawer__toolbar-spacer">
+              <a routerLink="/" class="brand-logo">
+                <img src="/assets/images/logo.svg" alt="logo">
+              </a>
+            </div>
+            <div class="mdc-list-group">
+              <nav class="mdc-list mdc-drawer-menu">
+                <div class="mdc-list-item mdc-drawer-item">
+                  <a class="mdc-drawer-link" routerLink="/">
+                    <i class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon" aria-hidden="true">desktop_mac</i>
+                    Dashboard
+                  </a>
+                </div>
+                <div class="mdc-list-item mdc-drawer-item">
+                  <a class="mdc-drawer-link" routerLink="/basic">
+                    <i class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon" aria-hidden="true">track_changes</i>
+                    Forms
+                  </a>
+                </div>
+                <div class="mdc-list-item mdc-drawer-item">
+                  <a class="mdc-drawer-link" href="pages/ui-features/tables.html">
+                    <i class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon" aria-hidden="true">grid_on</i>
+                    Tables
+                  </a>
+                </div>
+                <div class="mdc-list-item mdc-drawer-item">
+                  <a class="mdc-drawer-link" href="pages/charts/chartjs.html">
+                    <i class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon" aria-hidden="true">pie_chart_outlined</i>
+                    Charts
+                  </a>
+                </div>
+                <div class="mdc-list-item mdc-drawer-item" href="#" data-toggle="expansionPanel" target-panel="sample-page-submenu">
+                  <a class="mdc-drawer-link" href="#">
+                    <i class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon" aria-hidden="true">pages</i>
+                    Sample Pages
+                    <i class="mdc-drawer-arrow material-icons">arrow_drop_down</i>
+                  </a>
+                  <div class="mdc-expansion-panel" id="sample-page-submenu">
+                    <nav class="mdc-list mdc-drawer-submenu">
+                      <div class="mdc-list-item mdc-drawer-item">
+                        <a class="mdc-drawer-link" href="pages/samples/blank-page.html">
+                          Blank Page
+                        </a>
+                      </div>
+                      <div class="mdc-list-item mdc-drawer-item">
+                        <a class="mdc-drawer-link" href="pages/samples/403.html">
+                          403
+                        </a>
+                      </div>
+                      <div class="mdc-list-item mdc-drawer-item">
+                        <a class="mdc-drawer-link" href="pages/samples/404.html">
+                          404
+                        </a>
+                      </div>
+                      <div class="mdc-list-item mdc-drawer-item">
+                        <a class="mdc-drawer-link" href="pages/samples/500.html">
+                          500
+                        </a>
+                      </div>
+                      <div class="mdc-list-item mdc-drawer-item">
+                        <a class="mdc-drawer-link" href="pages/samples/505.html">
+                          505
+                        </a>
+                      </div>
+                      <div class="mdc-list-item mdc-drawer-item">
+                        <a class="mdc-drawer-link" href="pages/samples/login.html">
+                          Login
+                        </a>
+                      </div>
+                      <div class="mdc-list-item mdc-drawer-item">
+                        <a class="mdc-drawer-link" href="pages/samples/register.html">
+                          Register
+                        </a>
+                      </div>
+    
+                    </nav>
+                  </div>
+                </div>
+                <div class="mdc-list-item mdc-drawer-item purchase-link">
+                  <a href="https://www.bootstrapdash.com/product/material-admin/" target="_blank" class="mdc-button mdc-button--raised mdc-button--dense mdc-drawer-link" data-mdc-auto-init="MDCRipple">
+                    Upgrade To Pro
+                  </a>
+                </div>
+              </nav>
+            </div>
+          </nav>
+        </aside>
+        <!-- partial -->
+        
+      <!-- plugins:js -->
+      <!--
+      //?? ???? ??? ? ?????? ????? ?????
+
+      <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+      -->
+      <!-- endinject -->
+      <!-- Plugin js for this page-->
+      <!-- End plugin js for this page-->
+      <!-- inject:js -->
+      <!-- endinject -->
+      <!-- Custom js for this page-->
+      <!-- End custom js for this page-->
+
+
+      <!--?? ?? ?? ???? ??-->
+      <router-outlet></router-outlet>
