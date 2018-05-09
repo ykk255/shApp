@@ -12,11 +12,17 @@
   },
   "private": true,
   "dependencies": {
+<<<<<<< HEAD
     "@angular/animations": "^5.2.0",
     "@angular/cdk": "^5.2.0",
     "@angular/common": "^5.2.0",
+=======
+    "@angular/animations": "^5.2.10",
+    "@angular/cdk": "^5.2.0",
+    "@angular/common": "^5.2.10",
+>>>>>>> db39c212e2eff5e0f4e270b1ba27316c3d01860b
     "@angular/compiler": "^5.2.0",
-    "@angular/core": "^5.2.0",
+    "@angular/core": "^5.2.10",
     "@angular/forms": "^5.2.0",
     "@angular/material": "^5.2.0",
     "@angular/platform-browser": "^5.2.0",
@@ -28,6 +34,7 @@
     "chart": "^0.1.2",
     "chart.js": "^2.7.2",
     "core-js": "^2.4.1",
+<<<<<<< HEAD
     "jquery": "^3.3.1",
     "material-components-web": "^0.35.1",
     "mdi": "^2.2.43",
@@ -35,6 +42,10 @@
     "progressbar": "^1.3.0",
     "progressbar.js": "^1.0.1",
     "rxjs": "^5.5.6",
+=======
+    "hammerjs": "^2.0.8",
+    "rxjs": "^5.5.10",
+>>>>>>> db39c212e2eff5e0f4e270b1ba27316c3d01860b
     "zone.js": "^0.8.19"
   },
   "devDependencies": {
