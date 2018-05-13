@@ -12,6 +12,8 @@ import { HomeComponent } from './pages/home/home.component';
 
 // Feature Module import
 import { BasicFormsModule } from "./basic-forms/basic-forms.module";
+import { TablesModule } from "./tables/tables.module";
+import { ChartModule } from "./chart/chart.module";
 
 // Routing Module import
 import { AppRoutingModule } from "./app-routing/app-routing.module";
@@ -26,7 +28,9 @@ import { AppRoutingModule } from "./app-routing/app-routing.module";
     BrowserAnimationsModule,
     MatTableModule,
     BasicFormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    TablesModule,
+    ChartModule
   ],
   providers: [],
   bootstrap: [AppComponent]
